@@ -1,0 +1,568 @@
+body {font-family: 'Montserrat', sans-serif;
+	font-size: 62,5%;
+	margin: 0px;
+	}
+
+
+/* ID*/
+
+	#RedesNav{
+	background-color: #ECF0F1;
+	margin-top: 20px;
+	padding: 15px;
+	}
+
+	#RedesNav ul li{
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+
+	#logo{
+	background-color: #F5EEF8;
+	padding-bottom: 50px;
+	}
+
+
+	#barra{
+	color:#9C27B0;
+	font-size:3rem;
+	font-weight: bolder;
+	}
+
+	#ParrafoFooter{
+	color:white;
+	margin-left: 3%;
+	margin-top: 2%;
+	}
+
+	#AtributosHome{
+	margin-top: 120px;
+	margin-left: 4%;
+	margin-right: 4%;
+	}
+
+
+			/* Portfolio*/
+	#PorfolioMisTrabajos{
+	background-color:white;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	}
+
+			/* Sobre Mi*/
+
+	#FotoMia{
+	padding-left:20%;
+	padding-right: 20%;
+	margin-top: 3%;
+	}
+	
+	#SobreMiDiv h2{
+	font-size: 1.3em;
+
+		}
+
+	#ParrafoSobreMi p
+	{
+	font-size:1rem;	
+	color:#626567;
+	margin-left: 4%;
+	}
+
+	#Habilidades{
+	display: flex;
+	margin-top: 70px;
+	}
+
+	#Habilidades .row{
+	justify-content: center;
+		}
+
+			
+	/* Whatsapp*/
+	#whatsapp{
+		background-color:#01E675;
+		width:70px;
+		  height:70px;			
+		 padding:15px;
+		  -webkit-border-radius: 50px;
+		  -moz-border-radius: 50px;
+		  border-radius: 50px;
+		  position: fixed;
+		  right: 40px;
+		  bottom: 40px;
+		}
+
+		#whatsapp img{
+			width:100%;
+			padding:0%;
+			}
+
+	/* Clases*/
+			/* Nav*/
+
+	.encabezado {
+		text-align: center;
+		}
+			
+
+	.encabezado li {
+	font-weight: bolder;
+	color: #A400FF;
+	padding: 0px;
+	margin-left:2%;
+	}
+
+	.encabezado li :hover{
+	text-decoration: 2px underline;
+	color: #A400FF;
+	}
+
+	.Iconos{
+		text-align: center;
+		justify-content: center;
+			}
+	
+	.Iconos:hover{
+	opacity:50%;
+	}
+
+
+	.links{
+	text-align: center;
+		}
+	
+
+	.DivNav{
+	
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	.nav-a{
+		color:#A400FF;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.7em;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.nav-a:hover{
+		text-decoration-line: underline;
+		color:#A400FF;	
+	}
+
+	.punto{
+	color:#A400FF;
+	font-size:5rem;	
+	font-weight: bolder;
+	}
+
+	.AtributosTexto{
+	font-size: 1.3em;
+	margin-top: 50px;
+	color:#626567;
+	text-decoration: underline;
+	}
+
+			/* Portfolio*/
+
+
+	.portfolio_imagenes{
+	padding:1%;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding-bottom: 80px;
+	margin-top: 50px;
+	}
+
+	.tarjeta{
+	border: red 5px none;
+	padding: 10px;
+	}
+
+
+	.contenedor{
+	padding: 15px;
+		}
+		
+
+	.NombreProyecto{
+	font-weight: bolder;
+	}
+	.TipoProyectoServicios{
+	text-align: center;
+	}
+
+	.SobreMiHabilidad{
+	padding: 5%;
+	text-align: center;
+	}
+
+
+	.VerProyecto{
+		font-size:0.8rem;
+		text-decoration-line: none;
+		color:#A400FF;
+
+	}
+	
+	
+		.VerProyecto:hover{
+			font-size:0.8rem;
+			text-decoration: none;
+			}
+	
+			/* Servivios*/
+
+	.tituloServicios{
+		color: #A400FF;
+	text-align: center;
+	font-size: 1.2em;
+	}
+
+			/* Secciones fotos individuales*/
+
+	.Nombre{
+	margin-left:4%;
+	margin-right:4%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.7em;
+	}
+
+	.SeccionIndividual
+	{ margin-top:50px;
+
+	}
+
+	.FotoIndividual{
+		margin-left:4%;
+		margin-bottom:3%;
+		margin-right:4%;
+		}
+
+	.TituloSecciones{
+	margin-left:4%;
+	margin-bottom:3%;
+	margin-right:4%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.7em;
+
+	}
+
+	.TextoSecciones{
+	margin-left:4%;
+	margin-bottom:3%;
+	margin-right:4%;
+	}
+
+.cardDiario{
+	border: grey 1px solid;
+	}
+
+
+		/* Sobre mi*/
+
+.btn-outline-secondary{
+	border: grey 1px solid;
+	display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background-color:white ;
+	}
+
+
+.btn-outline-secondary a {
+color: #9C27B0;
+}
+
+.btn-outline-secondary a:hover {
+color: white;
+text-decoration: none;
+}
+
+			/* Footer*/
+	.DivFooter{
+	margin-top: 10px;
+	margin-left: 3%;
+	}
+
+	.LiFooter{
+	padding-bottom:30px;
+	list-style-type: none;
+	}
+
+	.RedesFooter{
+	color: white;
+	font-size:15px;
+	font-weight: lighter;
+	}
+
+	.RedesFooter:hover{
+	color: white;
+	text-decoration: none;
+	font-weight: bolder;
+	}
+
+	.NavFooter{
+		padding-top:0;
+		margin: -4%;
+		}
+
+	.NavLiFooter{
+	padding-bottom:15px;
+	list-style-type: none;
+	}
+
+	.NavLiFooter a{
+	color:white;
+	font-weight: lighter;
+	}
+
+	.NavLiFooter a:hover{
+	font-weight: bolder;
+	text-decoration: none;
+	}
+	
+	/* Generales*/
+	header{
+	margin-bottom:2%;
+	}
+
+
+
+	h1{
+	font-family: 'Domine', serif;
+	font-size:3rem;	
+	color:#626567;
+	text-align: center;
+	}
+
+	h2{
+	font-size:1rem;	
+	color:#626567;
+	text-align:center;
+	margin-left: 4%;
+	margin-right: 4%;
+	}
+
+	hr{
+		margin-left: 4%;
+		margin-right: 4%;
+		}
+
+	h3{
+	font-size:1,4rem;
+	color:#9C27B0;
+	margin-bottom:5px;
+	text-transform:uppercase;
+	}
+
+	p {
+	color:#7B7D7D;
+	font-size:1rem;
+
+	}
+			/* seccioenes foto individal*/
+
+	
+
+	span{
+	color: #626567;
+	}
+
+	footer{
+	background-color: #626567;
+	padding-bottom: 40px;
+	margin-left: 0px;
+	}
+
+
+
+	
+	@media only  screen and (min-width: 768px) {
+	
+	/* ID*/
+	#barra{
+	color:#9C27B0;
+	font-size:4rem;
+	font-weight: bolder;
+	}
+	.encabezado{
+	justify-content: right;
+	color: #A400FF;
+	}	
+	
+	
+	
+	}
+
+
+
+
+	/* Clases*/
+
+	.fotoGrande{
+		padding:0;
+		}
+
+	/* Generales*/
+
+	h2{
+	font-size:1.6rem;	
+	color:#626567;
+	margin-left: 8%;
+	margin-right: 8%;
+	}.NavFooter{
+		padding-top:50px;
+		margin: -4%;
+		}
+
+
+
+		
+			
+	@media only  screen and (min-width: 992px) {
+	
+	/* ID*/
+	#barra{
+	color:#9C27B0;
+	font-size:4rem;
+	font-weight: bolder;
+	}
+
+	
+	
+
+
+	/* Clases*/
+
+	.encabezado{
+	color: #A400FF;
+	justify-content: right;
+	}	
+	
+
+	/* Generales*/
+
+	h2{
+	font-size:1.6rem;	
+	color:#626567;
+	padding-left:10%;
+	padding-right:10%;
+	}
+
+	hr{
+		margin-left: 10%;
+		margin-right: 10%;
+		}
+
+		#whatsapp{
+			background-color:#01E675;
+			width:100px;
+			  height:100px;			
+			 padding:20px;
+			  -webkit-border-radius: 50px;
+			  -moz-border-radius: 50px;
+			  border-radius: 50px;
+			  position: fixed;
+			  right: 40px;
+			  bottom: 40px;
+			}
+
+			.NavFooter{
+				padding-top:60px;
+				margin: -4%;
+				}
+	
+	}	
+
+	@media only  screen and (min-width: 992px) {
+	
+
+		.encabezado li{
+			font-weight: bolder;
+			color: #A400FF;
+			padding-left: 35px;
+			}
+		
+			.links{
+				text-align: center;
+					}
+				
+			
+				.DivNav{
+					display: flex;
+					flex-direction: row;
+					justify-content: flex-end;
+					padding-top: 2px;
+					padding-bottom: 2px;
+					text-align: left;
+				}
+				.nav-a{
+					color:#626567;
+					font-size: 1.2em;
+					padding-top: 0px;
+					padding-bottom: 0px;
+				}
+			
+				.nav-a:hover{
+					text-decoration-line: underline;
+					color:#A400FF;}
+	
+	
+	/* class*/
+	
+	
+
+	.SobreMiHabilidad {
+		padding: 20%;
+		}
+	
+		.fotoGrande{
+			padding:0;
+			}
+		.container, .container-lg, .container-md, .container-sm, .container-xl {
+			max-width: 1850px;
+		}
+			/* Servivios*/
+
+	
+	.encabezado{
+	color: #A400FF;
+	justify-content: right;
+	}	
+	
+	/* ID*/
+
+	#barra{
+	color:#9C27B0;
+	font-size:5rem;
+	font-weight: bolder;
+	}
+
+	/* Generales*/
+
+	h1{
+	font-size:4rem;	
+	color:#626567;
+	font-weight: lighter;
+	margin-left: 4%;
+	}
+
+	h2{
+	font-size:1,6rem;	
+	color:#626567;
+	margin-left: 15%;
+	margin-right: 15%;
+	}
+	hr{
+		margin-left: 18%;
+		margin-right: 18%;
+		}
+	
+	
+
+	}	
